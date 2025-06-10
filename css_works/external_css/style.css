@@ -1,0 +1,25 @@
+
+
+/* select tagname|id|class */
+
+/* basic selectors Tagname body,p,h1 */
+
+/* Id */
+/* class */
+
+/* tagname|id|class{
+
+     property:value;
+
+     property:value;
+} */
+
+body{
+
+    background-color: black;
+    color: white;
+}
+
+h1{
+    border: 2px solid yellowgreen;
+}

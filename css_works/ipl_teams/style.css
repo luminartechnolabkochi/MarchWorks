@@ -1,0 +1,37 @@
+
+
+.border{
+    
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.bg-rcb{
+background-color: #d71841;
+}
+
+.bg-mi{
+    background-color: #3e35a7;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.width-300{
+    width: 300px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+/* django channels */
+
+/* book api => */

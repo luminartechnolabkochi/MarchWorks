@@ -1,0 +1,10 @@
+ajay,80
+vyshnay,80
+rahul,80
+sreehari,80
+aswinn,80
+surej,100
+pranav,80
+athul,0
+anoop,0
+sandeep,0

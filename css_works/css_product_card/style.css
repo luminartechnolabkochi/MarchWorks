@@ -1,0 +1,92 @@
+
+:root{
+    /* --variablename:value */
+    --danger:red;
+    --primary:blue;
+    --warning:yellow;
+    --ash:#ada7a79a;
+    --ash-light:#ffffffa5;
+    --btn-primary:#88aaec;
+
+    --text-white:#ffffff;
+
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-container{
+    width: 75%;
+    height: 500px;
+    background-color: var(--ash);
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.card-image{
+    width: 40%;
+    height: 500px;
+  
+}
+
+.card-image>img{
+    width: 100%;
+    height: 500px;
+   
+}
+
+.card-body{
+    width: 50%;
+    height: 350px;
+    background-color: var(--ash-light);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.card-content{
+    min-height: 275px;
+
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.card-footer>button{
+    width: 100px;
+    background-color:var(--btn-primary);
+    color: var(--text-white);
+    padding: 5px;
+    border: none;
+}
+
+
+.card-price>h1{
+    font-size: 50px;
+}
+
+.card-image:hover{
+
+    transform: rotate(45deg);
+     transition: transform 0.3s ease-in;
+}
+
+.card-body:hover{
+    transform:skew(20deg, 10deg);
+     transition: transform 0.3s ease-in-out;
+}

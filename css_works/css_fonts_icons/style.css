@@ -1,0 +1,60 @@
+
+
+.container{
+    text-align: center;
+}
+
+.container>span{
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: 32px;
+
+    font-weight: bolder;
+
+    text-shadow: 2px 2px green;
+
+
+}
+
+.left{
+    color: aqua;
+}
+
+.right{
+    color: blueviolet;
+}
+
+.container-fluid{
+    width: 75%;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 4px gray;
+}
+
+
+.container-fluid:hover{
+
+   transform: scaleX(1.2);
+
+   transition: transform ease-in-out 0.5s;
+}
+
+/* text-shadow:h-offset v-offset blur color */
+/* box-shadow:h-offset v-offset blur color */
+
+/* :hover */
+/* transorm: */
+        /* translate */
+        /* scale */
+        /* rotate */
+/* transition:property timingfunction delay */
+        /* timing function */
+        /* ease */
+        /* ease-in */
+        /* ease-out */
+        /* ease-in-out */
+        /* linear */

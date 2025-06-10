@@ -1,0 +1,136 @@
+
+python
+======
+
+    *features of python
+        >interpreted language
+        >highlevel programming language
+        >easy to read
+        >dynamically typed 
+    
+    *inventor 
+        >guido van rossum
+
+    *python datatype
+
+        >builtin [int,bool,float,None]
+        >sequence[str]
+        >collections:[list,set,tuple,deictionary]
+
+    *python operators
+        >A.O(+,-,*,/,//,%,**)
+        >R.O(<,>,<=,>=,==)
+        >L.O(and,or,not)
+        >B.O(&,|,!)
+        >identity operator(is)
+        >membership operator(in)
+
+    *decision making statements
+        >if..else
+        >if..elif...else
+
+    *looping statements
+        >for
+        >while
+
+    *functions
+        
+        >defining and calling functions
+        >lambda functions  eg: lambda n1,n2:n1+n2
+        >*args,**kwargs *(tuple) **(dictionary)
+        >recursion function call itself is called recusion
+        >decorator function
+                syntax:
+                    def dec_fun_name(fun_object):
+                        def wrapper(*args):
+                            logic
+                            return fun_object(*args)
+                        return wrapper
+
+        >builtin functions: print,input,type,range,sum,min,max,sorted,enumerate,abs,round
+    
+    *string class 
+        >sequence of characters
+        >methods
+        >slicing
+
+    *collections(organizing group of same and different type objects)
+
+        >list [],duplicates,insertion order,methods
+        >tuple
+        >set
+        >dictionary
+    
+    *mutable immutable
+        >mutable (can change) eg:list,set,dictionary
+        >immutable(not change):tuple,string
+
+    *files 
+        >fileoperations (read,write,append)
+        >open()
+        >with
+    
+    *modules and packages
+        > from import
+        >json.py
+
+    
+    *OOPS
+        
+        >defnition
+        >class ,object
+        >constructor __init__
+        >self 
+        >super() 
+        >__str__() string representation of an object
+        >__len__()
+        >inheritance(single,multilevel,multiple)
+        >polymorphism(method overloading,method overriding)
+        >abstraction(ABC,abstractmethod)
+        >different types of methods
+            *class method
+            *static method
+            *instance method
+
+    *deep copy & shallow copy
+
+    DJANGO
+    ======
+    *virtualenv
+    *django project and application
+    *variables in  settings.py in django 
+    *django architecture
+    *models and model relations(1:1,1:M,M:M)
+    *orm queries
+    *steps involved in interagating django with  mysql database
+    *django forms and model forms
+    *django signals
+    *django middlewares
+    *django authetication
+    *django custom usermodels and custom backends.py
+
+
+    DJANGO REST FRAMEWORK
+    ======================
+    *what is api
+    *http methods
+    *status codes
+    *seriaization and deserialization
+    *serializer and modelserializer
+    *APIVIew,Viewset,genreic views
+    *DRF authentication and permissions
+    *DRF custom permissions
+    *diff b/w token authetication and JWT
+
+    Bonus
+    =====
+    *caching
+    *celery
+    *rabbitmq
+    *channels
+
+# map
+# filter
+# reduce
+
+

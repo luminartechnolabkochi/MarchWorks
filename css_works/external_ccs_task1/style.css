@@ -1,0 +1,26 @@
+
+body{
+    background-color: #a726c5;
+}
+
+#main-head{
+
+    /* background-color: #f4109c; */
+    text-align: center;
+}
+
+#second-head{
+    background-color: #ff4f72;
+}
+
+#third-head{
+    background-color: #ff8d53;
+}
+
+#fourth-head{
+    background-color:#ffc64d ;
+}
+
+h1{
+    color: white;
+}
